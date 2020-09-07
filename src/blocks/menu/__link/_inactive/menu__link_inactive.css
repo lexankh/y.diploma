@@ -1,0 +1,8 @@
+.menu__link_inactive {
+    color: #b6bcbf; 
+}
+
+.menu__link_inactive:hover {
+    color: white;
+    transition: .4s;
+}

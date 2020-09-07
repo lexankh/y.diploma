@@ -1,4 +1,5 @@
 .header__content {
+    min-height: 80px;
     max-width: 86%;
     display: flex;
     justify-content: space-between;

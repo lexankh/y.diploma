@@ -1,6 +1,7 @@
 @import url(./__link/menu__link.css);
 
 .menu {
+    font-family: Roboto;
     display: flex;
     list-style-type: none;
    

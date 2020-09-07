@@ -1,0 +1,6 @@
+.search {
+    background-image: url(./src/images/headerpic.png);
+    width: 100%;
+    min-height: 576px;
+    background-size: cover;
+}

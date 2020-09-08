@@ -1,0 +1,8 @@
+.search__content {
+    display: flex;
+    margin: 160px auto 80px auto;
+    flex-direction: column;
+    max-width: 608px;
+    justify-content: center;
+    align-items: center;
+}

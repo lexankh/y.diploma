@@ -1,0 +1,21 @@
+.search__bar {
+    background: white;
+    box-sizing: border-box;
+    border-radius: 100px;
+    max-width: 100%;
+    width: 100%;
+    padding-left: 20px;
+    min-height: 64px;
+    outline: none;
+    color: #b6bcbf;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    
+}
+
+.search__bar:focus {
+    color: black;
+}

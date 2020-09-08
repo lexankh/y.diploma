@@ -1,0 +1,24 @@
+.search__btn {
+    background: #2f71e5;
+    box-shadow: 0 5px 15px rgba(14,26,57,.2);
+    border-radius: 100px;
+    position: absolute;
+    right: 0;
+    width: 168px;
+    min-height: 64px;
+    border-width: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    
+}
+
+.search__btn:hover {
+    background: #347EFF;
+    transition: .4s;
+}

@@ -1,26 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>" />
     <title>Document</title>
-</head>
-<body class="body">
+  </head>
+  <body class="body">
     <div class="page">
-        <header class="header">
-            <div class="header__content">
-            <a class="logo">NewsAnalyzer</a>
-            <ul class="menu">
-                <li><a class="menu__link menu__link_active" href="./index.html">Главная</a></li>
-                <li><a class="menu__link menu__link_inactive" href="./about.html">О проекте</a></li>
-            </ul>
+      <header class="header">
+        <div class="header__content">
+          <a class="logo">NewsAnalyzer</a>
+          <ul class="menu">
+            <li>
+              <a class="menu__link menu__link_active" href="./index.html"
+                >Главная</a
+              >
+            </li>
+            <li>
+              <a class="menu__link menu__link_inactive" href="./about.html"
+                >О проекте</a
+              >
+            </li>
+          </ul>
         </div>
-        </header>
-        <div class="search"></div>
-        <div class="author"></div>
-        <footer class="footer"></footer>
+      </header>
+      <section class="search">
+          <div class="search__content">
+        <h1 class="search__title">Что в мире творится?</h1>
+        <h3 class="search__subtitle">
+          Введите в поиске любую тему и узнайте, насколько популярной она была в
+          новостях за прошедшую неделю.
+        </h3>
+        <form class="search__field">
+            <input class="search__bar" required placeholder="Введите тему новости">
+            <button class="search__btn" type="submit">Искать</button>
+        </form>
+    </div>
+      </section>
+      <div class="preloader">
+        <div class="preloader__circle"></div>
+        <p class="preloader__phrase">Идет поиск новостей...</p>
+      </div>
+      <div class="author"></div>
+      <footer class="footer"></footer>
     </div>
     <script src="<%= htmlWebpackPlugin.files.js %>"></script>
-</body>
+  </body>
 </html>

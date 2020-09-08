@@ -1,4 +1,13 @@
+@import url(./__content/search__content.css);
+@import url(./__bar/search__bar.css);
+@import url(./__btn/search__btn.css);
+@import url(./__field/search__field.css);
+@import url(./__subtitle/search__subtitle.css);
+@import url(./__title/search__title.css);
+
 .search {
+    display: flex;
+    color: white;
     background-image: url(/src/images/headerpic.png);
     width: 100%;
     min-height: 576px;

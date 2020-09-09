@@ -26,21 +26,36 @@
         </div>
       </header>
       <section class="search">
-          <div class="search__content">
-        <h1 class="search__title">Что в мире творится?</h1>
-        <h3 class="search__subtitle">
-          Введите в поиске любую тему и узнайте, насколько популярной она была в
-          новостях за прошедшую неделю.
-        </h3>
-        <form class="search__field">
-            <input class="search__bar" required placeholder="Введите тему новости">
+        <div class="search__content">
+          <h1 class="search__title">Что в мире творится?</h1>
+          <h3 class="search__subtitle">
+            Введите в поиске любую тему и узнайте, насколько популярной она была
+            в новостях за прошедшую неделю.
+          </h3>
+          <form class="search__field">
+            <input
+              class="search__bar"
+              required
+              placeholder="Введите тему новости"
+            />
             <button class="search__btn" type="submit">Искать</button>
-        </form>
-    </div>
+          </form>
+        </div>
       </section>
       <div class="preloader">
         <div class="preloader__circle"></div>
         <p class="preloader__phrase">Идет поиск новостей...</p>
+      </div>
+      <div class="not-found">
+        <img
+          class="not-found__image"
+          src="<%=require('./images/notFound.png')%>"
+          alt="Ничего не найдено"
+        />
+        <p class="not-found__title">Ничего не найдено</p>
+        <p class="not-found__subtitle">
+          К сожалению по вашему запросу ничего не найдено.
+        </p>
       </div>
       <div class="author"></div>
       <footer class="footer"></footer>

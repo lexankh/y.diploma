@@ -1,0 +1,9 @@
+.result__card {
+   border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   background-color: white;
+   overflow: hidden;
+   height: 100%;
+   
+}

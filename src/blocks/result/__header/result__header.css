@@ -1,0 +1,6 @@
+.result__header {
+    margin: auto;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}

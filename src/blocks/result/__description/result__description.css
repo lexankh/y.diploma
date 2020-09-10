@@ -1,0 +1,9 @@
+.result__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    text-align: left;
+    padding: 20px 24px 24px;
+
+}

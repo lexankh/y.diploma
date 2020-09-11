@@ -1,0 +1,6 @@
+@import url(./__text/info__text.css);
+
+.info {
+  margin: 160px auto 94px;
+  max-width: 87%;
+}

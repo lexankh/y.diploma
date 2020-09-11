@@ -29,8 +29,82 @@
 
     <section class="info">
       <h3 class="info__title section-title">Клиентам</h3>
-      <p class="info"></p>
+      <p class="info__text">
+        Этот сайт — дипломный проект студента Яндекс.Практикума. Его цель —
+        показать, чему научился студент, какими технологиями владеет.
+      </p>
+      <p class="info__text">
+        Вёрстка сайта выполнена по методологии БЭМ. Это делает сайт гибким и
+        масштабируемым. Кроме того, добавлять новые страницы и функциональность
+        проще и быстрее, чем в проектах, выполненных по другим методологиям.
+        Также сайт проще и дешевле поддерживать.
+      </p>
+      <p class="info__text">
+        Карточки с новостями приходят с сервера и обрабатываются асинхронно. То
+        есть сайт продолжает работать, пока от сервера приходит ответ. Это
+        повышает удобство использования сервиса.
+      </p>
+      <p class="info__text">
+        При создании проекта была использована сборка технологией Webpack. Это
+        современный подход к разработке сайтов. Код оптимизируется, а значит,
+        сайт работает быстрее. Также сайт работает в старых браузерах. Даже если
+        посетители — пользователи старых операционных систем, у них не будет
+        проблем с отображением. А значит, потенциальная аудитория возрастает.
+      </p>
+      <p class="info__text">
+        Проект был проверен экспертами Яндекс.Практикума. Если вашему бизнесу
+        нужен сайт, мы рекомендуем обратиться к этому студенту.
+      </p>
     </section>
+    <section class="tech">
+      <div class="tech__container">
+      <h3 class="tech__title section-title">Используемые технологии</h3>
+      <div class="tech__skills">
+        <figure class="tech__skill">
+          <figcaption class="tech__name">HTML</figcaption>
+          <img alt="HTML5" class="tech__image" src="<%=require('./images/html.png')%>">
+        </figure>
+        <figure class="tech__skill">
+          <figcaption class="tech__name">CSS</figcaption>
+          <img alt="HTML5" class="tech__image" src="<%=require('./images/css.png')%>">
+        </figure>
+        <figure class="tech__skill">
+          <figcaption class="tech__name">JavaScript</figcaption>
+          <img alt="HTML5" class="tech__image" src="<%=require('./images/js.png')%>">
+        </figure>
+        <figure class="tech__skill">
+          <figcaption class="tech__name">Webpack</figcaption>
+          <img alt="HTML5" class="tech__image" src="<%=require('./images/webpack.png')%>">
+        </figure>
+      </div>
+    </div>
+    </section>
+    <section class="author">
+      <img class="author__photo" alt="Фото автора" src="<%=require('./images/author__photo.png')%>">
+      <div class="author__about">
+        <h4 class="author__heading section-title">Об авторе</h4>
+        <p class="author__text">
+          Это блок с описанием автора проекта. Здесь следует указать, как вас
+          зовут, чем вы занимаетесь, какими технологиями разработки владеете.
+        </p>
+        <p class="author__text">
+          Также можно рассказать о процессе обучения в Практикуме, чему вы тут
+          научились, и чем можете помочь потенциальным заказчикам.
+        </p>
+      </div>
+    </section>
+    <footer class="footer">
+      <p class="footer__copyright">&copy;2020 Lexankh</p>
+      <nav class="footer__nav">
+        <a href="index.html" class="footer__link">Главная</a>
+        <a href="about.html" class="footer__link">О проекте</a>
+        <a href="https://praktikum.yandex.ru" class="footer__link" target="blank">Яндекс.Практикум</a>
+      </nav>
+      <ul class="footer__socials">
+        <a href="https://github.com/lexankh" alt="github" class="footer__social-link" target="blank"><img class="footer__social-icon" src="<%=require('./images/github.png')%>"></a>
+        <a href="https://fb.com" alt="fb" class="footer__social-link" target="blank"><img class="footer__social-icon" src="<%=require('./images/fb.png')%>"></a>
+      </ul>
+    </footer>
     <script src="<%= htmlWebpackPlugin.files.js %>"></script>
   </body>
 </html>

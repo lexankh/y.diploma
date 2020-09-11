@@ -1,0 +1,11 @@
+@import url(./__container/tech__container.css);
+@import url(./__skills/tech__skills.css);
+@import url(./__skill/tech__skill.css);
+@import url(./__image/tech__image.css);
+@import url(./__name/tech__name.css);
+
+.tech {
+    padding: 80px 0 90px;
+    background-color: #F5F6F7;
+    width: 100%;
+}

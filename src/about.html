@@ -1,13 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
-    <title>Document</title>
-</head>
-<body>
-    <script src="<%= htmlWebpackPlugin.files.js %>"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>" />
+    <title>О проекте</title>
+  </head>
+  <body>
+    <header class="header header_theme_dark">
+      <div class="header__content">
+        <a class="logo logo_theme_light">NewsAnalyzer</a>
+        <ul class="menu">
+          <li>
+            <a
+              class="menu__link menu__link_theme_light menu__link_hover_dark"
+              href="./index.html"
+              >Главная</a
+            >
+          </li>
+          <li>
+            <a class="menu__link menu__link_active_dark" href="./about.html"
+              >О проекте</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
 
+    <section class="info">
+      <h3 class="info__title section-title">Клиентам</h3>
+      <p class="info"></p>
+    </section>
+    <script src="<%= htmlWebpackPlugin.files.js %>"></script>
+  </body>
 </html>

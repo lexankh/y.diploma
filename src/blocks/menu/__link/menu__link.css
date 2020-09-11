@@ -1,6 +1,3 @@
-@import url(./_active/menu__link_active.css);
-@import url(./_inactive/menu__link_inactive.css);
-
 .menu__link {
     padding-bottom: 26px;
   margin-right: 34px;
@@ -8,6 +5,8 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 24px;
- 
+  color: #b6bcbf; 
+
   text-decoration: none;
 }
+

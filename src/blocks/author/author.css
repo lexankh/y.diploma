@@ -1,0 +1,11 @@
+@import url(./__about/author__about.css);
+@import url(./__photo/author__photo.css);
+@import url(./__text/author__text.css);
+
+.author {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    background: #FFFFFF;
+    justify-content: center;
+}

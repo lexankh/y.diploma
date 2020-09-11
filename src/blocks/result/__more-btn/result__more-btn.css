@@ -1,0 +1,17 @@
+.result__more-btn {
+  color: #1a1b22;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-decoration: none;
+  background: #ffffff;
+  border-radius: 80px;
+  width: 288px;
+  height: 64px;
+  border-width: 0;
+  cursor: pointer;
+  outline: none;
+  margin: 82px auto 80px auto;
+}

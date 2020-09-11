@@ -1,0 +1,5 @@
+.menu__link_active_dark {
+    border-bottom: 2px solid black;
+    color: black;
+}
+

@@ -1,0 +1,8 @@
+.menu__link_active_light {
+    border-bottom: 2px solid #fff;
+    color: white;
+}
+
+.menu__link_active_light:hover {
+    color: white;
+}

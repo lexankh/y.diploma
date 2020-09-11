@@ -1,0 +1,15 @@
+.footer__link {
+    font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+text-align: center;
+color: #1A1B22;
+text-decoration: none;
+margin-right: 43px;
+}
+
+.footer__link:last-child {
+    margin-right: 0;
+}

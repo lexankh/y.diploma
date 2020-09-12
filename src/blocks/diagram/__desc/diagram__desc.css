@@ -1,0 +1,13 @@
+@import url(./_date/diagram__desc_date.css);
+.diagram__desc {
+  font-size: 12px;
+  line-height: 16px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+
+  color: #b6bcbf;
+}

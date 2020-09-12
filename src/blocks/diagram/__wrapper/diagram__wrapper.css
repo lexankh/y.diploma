@@ -1,0 +1,4 @@
+.diagram__wrapper {
+  display: flex;
+  overflow: hidden;
+}

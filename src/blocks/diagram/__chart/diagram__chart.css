@@ -1,0 +1,8 @@
+.diagram__chart {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 14px;
+  padding: 0;
+
+}

@@ -1,4 +1,7 @@
+
 @import url(../vendor/fonts.css);
+@import url(../blocks/body/body.css);
+
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/logo/logo.css);
@@ -6,3 +9,4 @@
 @import url(../blocks/analytics-links/analytics-links.css);
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/analytics-data/analytics-data.css);
+@import url(../blocks/diagram/diagram.css);

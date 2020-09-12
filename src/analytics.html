@@ -6,7 +6,8 @@
     <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>" />
     <title>Document</title>
   </head>
-  <body>
+  <body class="body">
+    
     <header class="header header_theme_dark">
       <div class="header__content">
         <a class="logo logo_theme_light">NewsAnalyzer</a>
@@ -26,18 +27,72 @@
         </ul>
       </div>
     </header>
-      <ul class="analytics-links">
-        <li class="analytics-links__item"><a class="analytics-links__link" href="./index.html">Главная</a></li>
-        <li class="analytics-links__item">Аналитика</li>
-      </ul>
-      <section class="analytics-data">
-          <h3 class="analytics-data__request section-title">Вы спросили: «Путешествия»</h3>
-          <p class="analytics-data__text">Новостей за неделю: <span class="analytics-data__digit analytics-data__weekly">34324</span></p>
-          <p class="analytics-data__text">Упоминаний в заголовках: <span class="analytics-data__digit analytics-data__titles">235</span></p>
+    <ul class="analytics-links">
+      <li class="analytics-links__item">
+        <a class="analytics-links__link" href="./index.html">Главная</a>
+      </li>
+      <li class="analytics-links__item">Аналитика</li>
+    </ul>
+    <section class="analytics-data">
+      <h3 class="analytics-data__request section-title">
+        Вы спросили: «Путешествия»
+      </h3>
+      <p class="analytics-data__text">
+        Новостей за неделю:
+        <span class="analytics-data__digit analytics-data__weekly">34324</span>
+      </p>
+      <p class="analytics-data__text">
+        Упоминаний в заголовках:
+        <span class="analytics-data__digit analytics-data__titles">235</span>
+      </p>
+    </section>
+    <section class="diagram">
+      <div class="diagram__content">
+        <h3 class="diagram__title">Аналитика по дням</h3>
+        <div class="diagram__header">
+          <p class="diagram__desc diagram__desc_date">Дата (август)</p>
+          <p class="diagram__desc">Кол-во Упоминаний</p>
+        </div>
+        <div class="diagram__wrapper">
+          <ul class="diagram__calendar">
+            <li class="diagram__date">19, пн</li>
+            <li class="diagram__date">20, пн</li>
+            <li class="diagram__date">21, пн</li>
+            <li class="diagram__date">22, пн</li>
+            <li class="diagram__date">23, пн</li>
+            <li class="diagram__date">24, пн</li>
+            <li class="diagram__date">25, пн</li>
+          </ul>
+          <div class="diagram__chart">
+            <ul class="diagram__line">
+              <li class="diagram__line-grade">0</li>
+              <li class="diagram__line-grade">25</li>
+              <li class="diagram__line-grade">50</li>
+              <li class="diagram__line-grade">75</li>
+              <li class="diagram__line-grade">100</li>
+            </ul>
+            <ul class="diagram__chart">
+              <li class="diagram__chart-line" style="width: 15%;">15</li>
+              <li class="diagram__chart-line" style="width: 18%;">18</li>
+              <li class="diagram__chart-line" style="width: 11%;">11</li>
+              <li class="diagram__chart-line" style="width: 39%;">39</li>
+              <li class="diagram__chart-line" style="width: 45%;">45</li>
+              <li class="diagram__chart-line" style="width: 73%;">73</li>
+              <li class="diagram__chart-line" style="width: 34%;">34</li>
+            </ul>
+            <ul class="diagram__line">
+              <li class="diagram__line-grade">0</li>
+              <li class="diagram__line-grade">25</li>
+              <li class="diagram__line-grade">50</li>
+              <li class="diagram__line-grade">75</li>
+              <li class="diagram__line-grade">100</li>
+            </ul>
 
-
-      </section>
-    <!-- <footer class="footer">
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
         <p class="footer__copyright">&copy;2020 Lexankh</p>
         <nav class="footer__nav">
           <a href="index.html" class="footer__link">Главная</a>
@@ -69,8 +124,9 @@
               src="<%=require('./images/fb.png')%>"
           /></a>
         </ul>
-      </footer> -->
-
+      </footer>
+    
     <script src="<%= htmlWebpackPlugin.files.js %>"></script>
+
   </body>
 </html>

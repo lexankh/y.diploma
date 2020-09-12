@@ -1,0 +1,11 @@
+.commit__card {
+    cursor: grab;
+    text-decoration: none;
+    background: #fff;
+    display: block;
+    border-radius: 16px;
+    width: 400px;
+    margin-right: 16px;
+    padding: 24px 24px 65px 24px;
+    box-sizing: border-box;
+}

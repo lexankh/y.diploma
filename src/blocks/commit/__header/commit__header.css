@@ -1,0 +1,8 @@
+.commit__header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 87%;
+    margin: 71px auto 64px;
+}

@@ -1,0 +1,6 @@
+.commit__image {
+    object-fit: cover;
+    width: 64px;
+    height: 64px;
+    margin-top: 18px;
+}

@@ -1,0 +1,8 @@
+.commit__cards {
+    width: 100%;
+    display: flex;
+    margin-top: 64px;
+    margin-bottom: 64px;
+   
+    justify-content: center;
+}

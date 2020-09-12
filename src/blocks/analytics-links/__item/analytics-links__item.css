@@ -1,0 +1,18 @@
+.analytics-links__item {
+    color: #b6bcbf;
+   
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+}
+
+.analytics-links__item:after {
+    content: "/";
+    margin: 0 5px;
+}
+
+.analytics-links__item:last-of-type:after {
+    content: "";
+}

@@ -1,0 +1,11 @@
+@import url(./__item/analytics-links__item.css);
+@import url(./__link/analytics-links__link.css);
+
+.analytics-links {
+    max-width: 87%;
+    display: flex;
+   padding-left: 0;
+    list-style: none;
+    
+    margin: 120px auto 80px;
+}

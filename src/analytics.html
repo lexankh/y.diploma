@@ -1,14 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>" />
     <title>Document</title>
-</head>
-<body>
-    
-    <script src="<%= htmlWebpackPlugin.files.js %>"></script>
-</body>
+  </head>
+  <body>
+    <header class="header header_theme_dark">
+      <div class="header__content">
+        <a class="logo logo_theme_light">NewsAnalyzer</a>
+        <ul class="menu">
+          <li>
+            <a
+              class="menu__link menu__link_theme_light menu__link_hover_dark"
+              href="./index.html"
+              >Главная</a
+            >
+          </li>
+          <li>
+            <a class="menu__link menu__link_active_dark" href="./about.html"
+              >О проекте</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+      <ul class="analytics-links">
+        <li class="analytics-links__item"><a class="analytics-links__link" href="./index.html">Главная</a></li>
+        <li class="analytics-links__item">Аналитика</li>
+      </ul>
+    <!-- <footer class="footer">
+        <p class="footer__copyright">&copy;2020 Lexankh</p>
+        <nav class="footer__nav">
+          <a href="index.html" class="footer__link">Главная</a>
+          <a href="about.html" class="footer__link">О проекте</a>
+          <a
+            href="https://praktikum.yandex.ru"
+            class="footer__link"
+            target="blank"
+            >Яндекс.Практикум</a
+          >
+        </nav>
+        <ul class="footer__socials">
+          <a
+            href="https://github.com/lexankh"
+            alt="github"
+            class="footer__social-link"
+            target="blank"
+            ><img
+              class="footer__social-icon"
+              src="<%=require('./images/github.png')%>"
+          /></a>
+          <a
+            href="https://fb.com"
+            alt="fb"
+            class="footer__social-link"
+            target="blank"
+            ><img
+              class="footer__social-icon"
+              src="<%=require('./images/fb.png')%>"
+          /></a>
+        </ul>
+      </footer> -->
 
+    <script src="<%= htmlWebpackPlugin.files.js %>"></script>
+  </body>
 </html>

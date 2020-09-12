@@ -1,0 +1,10 @@
+.analytics-links__link {
+    color: #1A1B22;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.analytics-links__link:hover {
+    color: #b6bcbf;
+    transition: .4s;
+}

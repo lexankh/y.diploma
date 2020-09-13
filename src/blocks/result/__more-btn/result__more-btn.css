@@ -15,3 +15,14 @@
   outline: none;
   margin: 82px auto 80px auto;
 }
+
+.result__more-btn:hover {
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  transition: .4s;
+}
+
+@media screen and (max-width: 768px) {
+ .result__more-btn {
+   margin: 0 auto 40px auto;
+ } 
+}

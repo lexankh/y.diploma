@@ -10,6 +10,12 @@
    
 }
 
+.commit__link:hover {
+    color: #b6bcbf;
+    transition: .4s;
+}
+
+
 .commit__link:after {
 
     content: url(../../../images/arrow.png);;
@@ -17,4 +23,10 @@
     width: 8px;
     height: 14px;
     margin: 5px 4px 0 8px;
+}
+
+@media screen and (max-width: 575px) {
+    .commit__link {
+        display: none;
+    }
 }

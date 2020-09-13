@@ -4,3 +4,9 @@
   margin: 160px auto 94px;
   max-width: 87%;
 }
+
+@media screen and (max-width: 768px) {
+  .info {
+    max-width: 90%;
+  }
+}

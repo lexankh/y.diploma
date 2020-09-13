@@ -11,6 +11,7 @@
 @import url(./__main-head/commit__main-head.css);
 @import url(./__nameof/commit__nameof.css);
 @import url(./__text/commit__text.css);
+@import url(./__title/commit__title.css);
 
 
 .commit {
@@ -19,4 +20,11 @@
     background-color: #F5F6F7;
     position: relative;
     padding: 75px 0;
+}
+
+@media screen and (max-width: 575px) {
+    .commit {
+        padding-top: 0;
+        padding-bottom: 32px;
+    }
 }

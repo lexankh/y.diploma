@@ -3,8 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Alexey Khoroshavin" />
+    <meta name="description" content="Yandex.praktikum diploma" /> 
+    <link rel="shortcut icon" href="<%=require('./images/favicon.svg')%>" type="image/svg">
     <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>" />
-    <title>О проекте</title>
+    <title>Практикум Диплом</title>
   </head>
   <body class="body">
     <header class="header header_theme_dark">
@@ -96,6 +99,7 @@
       </div>
     </section>
     <section class="author">
+      <div class="author__content">
       <img
         class="author__photo"
         alt="Фото автора"
@@ -112,10 +116,11 @@
           научились, и чем можете помочь потенциальным заказчикам.
         </p>
       </div>
+    </div>
     </section>
     <section class="commit">
       <div class="commit__header">
-        <h3 class="section-title">История коммитов из GitHub</h3>
+        <h3 class="commit__title section-title">История коммитов из GitHub</h3>
         <a class="commit__link" href="">Открыть в Github </a>
       </div>
       <div class="commit__cards">
@@ -177,6 +182,8 @@
           </p>
         </a>
       </div>
+      <button href="#" class="commit__btn">Показать еще</button>
+    </div>
     </section>
     <footer class="footer">
       <p class="footer__copyright">&copy;2020 Lexankh</p>

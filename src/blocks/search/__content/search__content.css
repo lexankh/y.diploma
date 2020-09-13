@@ -4,5 +4,11 @@
     flex-direction: column;
     max-width: 608px;
     justify-content: center;
-    align-items: center;
+    align-items: left;
+}
+
+@media screen and (max-width: 465px) {
+    .search__content {
+        width: 90%; 
+    }
 }

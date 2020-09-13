@@ -1,6 +1,6 @@
 .menu__link {
     padding-bottom: 26px;
-  margin-right: 34px;
+  margin-left: 34px;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -8,5 +8,12 @@
   color: #b6bcbf; 
 
   text-decoration: none;
+}
+
+@media screen and (max-width: 465px) {
+  .menu__link {
+    margin-left: 12px;
+    font-size: 16px;
+  }
 }
 

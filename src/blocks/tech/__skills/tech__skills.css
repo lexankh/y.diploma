@@ -1,5 +1,13 @@
 .tech__skills {
     align-self: center;
     display: flex;
-    max-width: 87%;
+    max-width: 90%;
+    
+}
+
+@media screen and (max-width: 730px) {
+    .tech__skills {
+        margin: auto;
+        flex-wrap: wrap;
+    }
 }

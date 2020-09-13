@@ -1,6 +1,13 @@
 .result__header {
     margin: auto;
-    width: 85%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 465px) {
+    .result__header {
+        display: block;
+        
+    }
 }

@@ -1,0 +1,18 @@
+.author__content {
+    
+    max-width: 87%;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1240px) {
+    .author__content {
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 465px) {
+    .author__content {
+        display: block;
+    }
+}

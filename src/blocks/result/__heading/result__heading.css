@@ -1,3 +1,15 @@
 .result__heading {
   margin: 0;
 }
+
+@media screen and (max-width: 465px) {
+  .result__heading {
+      margin-bottom: 16px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .result__heading {
+    max-width: 288px;
+  }
+}

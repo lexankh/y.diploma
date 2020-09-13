@@ -3,6 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Alexey Khoroshavin" />
+    <meta name="description" content="Yandex.praktikum diploma" /> 
+    <link rel="shortcut icon" href="<%=require('./images/favicon.svg')%>" type="image/svg">
     <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>" />
     <title>Практикум Диплом</title>
   </head>
@@ -47,7 +50,8 @@
         <p class="preloader__phrase">Идет поиск новостей...</p>
       </div>
       <div class="not-found">
-        <img alt="не найдено"
+        <img
+          alt="не найдено"
           class="not-found__image"
           src="<%=require('./images/notFound.png')%>"
           alt="Ничего не найдено"
@@ -58,137 +62,147 @@
         </p>
       </div>
       <section class="result">
-        <div class="result__header">
-          <h3 class="result__heading section-title">Результаты поиска</h3>
-          <a href="./analytics.html" class="result__analytics"
-            >Посмотреть аналитику</a
-          >
+        <div class="result__content">
+          <div class="result__header">
+            <h3 class="result__heading section-title">Результаты поиска</h3>
+            <a href="./analytics.html" class="result__analytics"
+              >Посмотреть аналитику</a
+            >
+          </div>
+          <ul class="result__container">
+            <li class="result__card">
+              <div
+                class="result__image"
+                style="
+                  background-image: url(<%=require('./images/cardimage1.png')%>);
+                "
+              ></div>
+              <div class="result__description">
+                <p class="result__date">2 августа, 2019</p>
+                <h3 class="result__title">Национальное достояние – парки</h3>
+                <p class="result__subtitle">
+                  В 2016 году Америка отмечала важный юбилей: сто лет назад
+                  здесь начала складываться система национальных парков –
+                  охраняемых территорий, где и сегодня каждый может приобщиться
+                  к природе.
+                </p>
+                <p class="result__origin">Лента.ру</p>
+              </div>
+            </li>
+
+            <li class="result__card">
+              <div
+                class="result__image"
+                style="
+                  background-image: url(<%=require('./images/cardimage2.png')%>);
+                "
+              ></div>
+              <div class="result__description">
+                <p class="result__date">1 августа, 2019</p>
+                <h3 class="result__title">
+                  Лесные огоньки: история одной фотографии
+                </h3>
+                <p class="result__subtitle">
+                  Фотограф отвлеклась от освещения суровой политической
+                  реальности Мексики, чтобы запечатлеть ускользающую красоту
+                  одного из местных чудес природы.
+                </p>
+                <p class="result__origin">Медуза</p>
+              </div>
+            </li>
+
+            <li class="result__card">
+              <div
+                class="result__image"
+                style="
+                  background-image: url(<%=require('./images/cardimage3.png')%>);
+                "
+              ></div>
+              <div class="result__description">
+                <p class="result__date">2 августа, 2019</p>
+                <h3 class="result__title">Национальное достояние – парки</h3>
+                <p class="result__subtitle">
+                  В 2016 году Америка отмечала важный юбилей: сто лет назад
+                  здесь начала складываться система национальных парков –
+                  охраняемых территорий, где и сегодня каждый может приобщиться
+                  к природе.
+                </p>
+                <p class="result__origin">Лента.ру</p>
+              </div>
+            </li>
+
+            <li class="result__card">
+              <div
+                class="result__image"
+                style="
+                  background-image: url(<%=require('./images/cardimage4.png')%>);
+                "
+              ></div>
+              <div class="result__description">
+                <p class="result__date">1 августа, 2019</p>
+                <h3 class="result__title">
+                  Лесные огоньки: история одной фотографии
+                </h3>
+                <p class="result__subtitle">
+                  Фотограф отвлеклась от освещения суровой политической
+                  реальности Мексики, чтобы запечатлеть ускользающую красоту
+                  одного из местных чудес природы.
+                </p>
+                <p class="result__origin">Медуза</p>
+              </div>
+            </li>
+
+            <li class="result__card">
+              <div
+                class="result__image"
+                style="
+                  background-image: url(<%=require('./images/cardimage5.png')%>);
+                "
+              ></div>
+              <div class="result__description">
+                <p class="result__date">2 августа, 2019</p>
+                <h3 class="result__title">Национальное достояние – парки</h3>
+                <p class="result__subtitle">
+                  В 2016 году Америка отмечала важный юбилей: сто лет назад
+                  здесь начала складываться система национальных парков –
+                  охраняемых территорий, где и сегодня каждый может приобщиться
+                  к природе.
+                </p>
+                <p class="result__origin">Лента.ру</p>
+              </div>
+            </li>
+
+            <li class="result__card">
+              <div
+                class="result__image"
+                style="
+                  background-image: url(<%=require('./images/cardimage6.png')%>);
+                "
+              ></div>
+              <div class="result__description">
+                <p class="result__date">1 августа, 2019</p>
+                <h3 class="result__title">
+                  Лесные огоньки: история одной фотографии
+                </h3>
+                <p class="result__subtitle">
+                  Фотограф отвлеклась от освещения суровой политической
+                  реальности Мексики, чтобы запечатлеть ускользающую красоту
+                  одного из местных чудес природы.
+                </p>
+                <p class="result__origin">Медуза</p>
+              </div>
+            </li>
+          </ul>
+          <button href="#" class="result__more-btn">Показать еще</button>
         </div>
-        <ul class="result__container">
-          <li class="result__card">
-            <div
-              class="result__image"
-              style="
-                background-image: url(<%=require('./images/cardimage1.png')%>);
-              "
-            ></div>
-            <div class="result__description">
-              <p class="result__date">2 августа, 2019</p>
-              <h3 class="result__title">Национальное достояние – парки</h3>
-              <p class="result__subtitle">
-                В 2016 году Америка отмечала важный юбилей: сто лет назад здесь
-                начала складываться система национальных парков – охраняемых
-                территорий, где и сегодня каждый может приобщиться к природе.
-              </p>
-              <p class="result__origin">Лента.ру</p>
-            </div>
-          </li>
-
-          <li class="result__card">
-            <div
-              class="result__image"
-              style="
-                background-image: url(<%=require('./images/cardimage2.png')%>);
-              "
-            ></div>
-            <div class="result__description">
-              <p class="result__date">1 августа, 2019</p>
-              <h3 class="result__title">
-                Лесные огоньки: история одной фотографии
-              </h3>
-              <p class="result__subtitle">
-                Фотограф отвлеклась от освещения суровой политической реальности
-                Мексики, чтобы запечатлеть ускользающую красоту одного из
-                местных чудес природы.
-              </p>
-              <p class="result__origin">Медуза</p>
-            </div>
-          </li>
-
-          <li class="result__card">
-            <div
-              class="result__image"
-              style="
-                background-image: url(<%=require('./images/cardimage3.png')%>);
-              "
-            ></div>
-            <div class="result__description">
-              <p class="result__date">2 августа, 2019</p>
-              <h3 class="result__title">Национальное достояние – парки</h3>
-              <p class="result__subtitle">
-                В 2016 году Америка отмечала важный юбилей: сто лет назад здесь
-                начала складываться система национальных парков – охраняемых
-                территорий, где и сегодня каждый может приобщиться к природе.
-              </p>
-              <p class="result__origin">Лента.ру</p>
-            </div>
-          </li>
-
-          <li class="result__card">
-            <div
-              class="result__image"
-              style="
-                background-image: url(<%=require('./images/cardimage4.png')%>);
-              "
-            ></div>
-            <div class="result__description">
-              <p class="result__date">1 августа, 2019</p>
-              <h3 class="result__title">
-                Лесные огоньки: история одной фотографии
-              </h3>
-              <p class="result__subtitle">
-                Фотограф отвлеклась от освещения суровой политической реальности
-                Мексики, чтобы запечатлеть ускользающую красоту одного из
-                местных чудес природы.
-              </p>
-              <p class="result__origin">Медуза</p>
-            </div>
-          </li>
-
-          <li class="result__card">
-            <div
-              class="result__image"
-              style="
-                background-image: url(<%=require('./images/cardimage5.png')%>);
-              "
-            ></div>
-            <div class="result__description">
-              <p class="result__date">2 августа, 2019</p>
-              <h3 class="result__title">Национальное достояние – парки</h3>
-              <p class="result__subtitle">
-                В 2016 году Америка отмечала важный юбилей: сто лет назад здесь
-                начала складываться система национальных парков – охраняемых
-                территорий, где и сегодня каждый может приобщиться к природе.
-              </p>
-              <p class="result__origin">Лента.ру</p>
-            </div>
-          </li>
-
-          <li class="result__card">
-            <div
-              class="result__image"
-              style="
-                background-image: url(<%=require('./images/cardimage6.png')%>);
-              "
-            ></div>
-            <div class="result__description">
-              <p class="result__date">1 августа, 2019</p>
-              <h3 class="result__title">
-                Лесные огоньки: история одной фотографии
-              </h3>
-              <p class="result__subtitle">
-                Фотограф отвлеклась от освещения суровой политической реальности
-                Мексики, чтобы запечатлеть ускользающую красоту одного из
-                местных чудес природы.
-              </p>
-              <p class="result__origin">Медуза</p>
-            </div>
-          </li>
-        </ul>
-        <button href="#" class="result__more-btn">Показать еще</button>
       </section>
       <section class="author">
-        <img class="author__photo" alt="Фото автора" src="<%=require('./images/author__photo.png')%>">
+        <div class="author__content">
+        <img
+          class="author__photo"
+          alt="Фото автора"
+          src="<%=require('./images/author__photo.png')%>"
+        />
         <div class="author__about">
           <h4 class="author__heading section-title">Об авторе</h4>
           <p class="author__text">
@@ -200,19 +214,41 @@
             научились, и чем можете помочь потенциальным заказчикам.
           </p>
         </div>
+      </div>
       </section>
       <footer class="footer">
-      <p class="footer__copyright">&copy;2020 Lexankh</p>
-      <nav class="footer__nav">
-        <a href="index.html" class="footer__link">Главная</a>
-        <a href="about.html" class="footer__link">О проекте</a>
-        <a href="https://praktikum.yandex.ru" class="footer__link" target="blank">Яндекс.Практикум</a>
-      </nav>
-      <ul class="footer__socials">
-        <a href="https://github.com/lexankh" alt="github" class="footer__social-link" target="blank"><img class="footer__social-icon" src="<%=require('./images/github.png')%>"></a>
-        <a href="https://fb.com" alt="fb" class="footer__social-link" target="blank"><img class="footer__social-icon" src="<%=require('./images/fb.png')%>"></a>
-      </ul>
-    </footer>
+        <p class="footer__copyright">&copy;2020 Lexankh</p>
+        <nav class="footer__nav">
+          <a href="index.html" class="footer__link">Главная</a>
+          <a href="about.html" class="footer__link">О проекте</a>
+          <a
+            href="https://praktikum.yandex.ru"
+            class="footer__link"
+            target="blank"
+            >Яндекс.Практикум</a
+          >
+        </nav>
+        <ul class="footer__socials">
+          <a
+            href="https://github.com/lexankh"
+            alt="github"
+            class="footer__social-link"
+            target="blank"
+            ><img
+              class="footer__social-icon"
+              src="<%=require('./images/github.png')%>"
+          /></a>
+          <a
+            href="https://fb.com"
+            alt="fb"
+            class="footer__social-link"
+            target="blank"
+            ><img
+              class="footer__social-icon"
+              src="<%=require('./images/fb.png')%>"
+          /></a>
+        </ul>
+      </footer>
     </div>
     <script src="<%= htmlWebpackPlugin.files.js %>"></script>
   </body>

@@ -5,3 +5,10 @@
 .footer__social-link:last-child {
     margin-right: 0;
 }
+
+
+@media screen and (max-width: 640px) {
+    .footer__social-link {
+        margin-right: 12px;
+    }
+}

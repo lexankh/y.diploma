@@ -1,0 +1,12 @@
+.result__content {
+    max-width: 87%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 465px) {
+    .result__content {
+        max-width: 90%;
+    }
+}

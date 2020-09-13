@@ -6,3 +6,9 @@ font-size: 18px;
 line-height: 24px;
 color: #B6BCBF;
 }
+
+@media screen and (max-width: 465px) {
+    .not-found__subtitle {
+        text-align: center;
+    }
+}

@@ -1,0 +1,13 @@
+.footer__socials {
+    padding: 0;
+}
+
+@media screen and (max-width: 575px) {
+    .footer__socials {
+        order: 2;
+        align-self: flex-start;
+        margin: 0;
+    }
+}
+
+

@@ -12,7 +12,7 @@
 
 
 
-@media (max-width: 769px) {
+@media screen and (max-width: 769px) {
   .result__container {
     gap: 8px;
     grid-template-columns: repeat(3, minmax(224px, 400px));
@@ -20,15 +20,21 @@
   }
 }
 
-@media (max-width: 721px) {
+@media screen and (max-width: 721px) {
   .result__container {
     grid-template-columns: repeat(2, minmax(224px, 400px));
   }
 }
 
-@media (max-width: 500px) {
+@media screen and (max-width: 500px) {
   .result__container {
     grid-template-columns: repeat(1, minmax(224px, 400px));
     margin: 35px auto;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  .result__container {
+    justify-content: initial;
   }
 }

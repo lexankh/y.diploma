@@ -1,6 +1,5 @@
 .search__btn {
     background: #2f71e5;
-    box-shadow: 0 5px 15px rgba(14,26,57,.2);
     border-radius: 100px;
     position: absolute;
     right: 0;
@@ -21,4 +20,15 @@
 .search__btn:hover {
     background: #347EFF;
     transition: .4s;
+    
 }
+
+@media screen and (max-width: 465px) {
+    .search__btn {
+        position: initial;
+        max-width: 100%;
+        width: 100%;
+        margin-top: 16px;
+    }
+}
+

@@ -4,4 +4,35 @@
     height: 32%;
     min-width: 232px;
     min-height: 232px;
+   
+}
+
+@media screen and (max-width: 1110px) {
+    .author__photo {
+        align-self: flex-end;
+    }
+}
+
+
+@media screen and (max-width: 575px) {
+    .author__photo {
+        align-self: center;
+    }
+}
+
+
+@media screen and (max-width: 465px) {
+    .author__photo {
+        display: block;
+        margin: auto;
+        width: 90%;
+        
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .author__photo {
+        margin: 0;
+        width: 100%;
+    }
 }

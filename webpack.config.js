@@ -4,7 +4,9 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const WebpackMd5Hash = require('webpack-md5-hash');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
+var ImageminPlugin = require('imagemin-webpack-plugin').default;
 const isDev = process.env.NODE_ENV === 'development';
+
 
 module.exports = {
     entry: {
@@ -69,6 +71,12 @@ module.exports = {
             chunks: ['main'],
             filename: 'index.html'
         }),
+        new ImageminPlugin({
+            disable: process.env.NODE_ENV !== 'production', // Disable during development
+            pngquant: {
+              quality: '95-100'
+            }
+          }),
         new HtmlWebpackPlugin({
             inject: false,
             template: './src/about.html',

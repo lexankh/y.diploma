@@ -3,3 +3,10 @@
     height: 97px;
     margin-top: 10px;
 }
+
+@media screen and (max-width: 768px) {
+    .tech__image {
+        width: 92px;
+        height: 92px;
+    }
+}

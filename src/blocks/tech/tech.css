@@ -3,6 +3,7 @@
 @import url(./__skill/tech__skill.css);
 @import url(./__image/tech__image.css);
 @import url(./__name/tech__name.css);
+@import url(./__title/tech__title.css);
 
 .tech {
     padding: 80px 0 90px;

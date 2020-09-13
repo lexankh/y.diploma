@@ -13,3 +13,27 @@ margin-right: 43px;
 .footer__link:last-child {
     margin-right: 0;
 }
+
+.footer__link:hover {
+    color: #8f8383;
+    transition: .4s;
+}
+
+@media screen and (max-width: 768px) {
+    .footer__link {
+        margin-right: 25px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .footer__link {
+        margin-right: 12px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .footer__link {
+        text-align: left;
+margin-bottom: 16px;
+    }
+}

@@ -3,3 +3,16 @@
     width: 98px;
     
 }
+
+@media screen and (max-width: 1100px) {
+    .tech__skill {
+        margin-left: 0;
+        margin-right: 98px;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .tech__skill {
+        margin-right: 25px;
+    }
+}

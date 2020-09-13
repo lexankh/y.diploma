@@ -2,6 +2,8 @@
 @import url(./__nav/footer__nav.css);
 @import url(./__link/footer__link.css);
 @import url(./__social-link/footer__social-link.css);
+@import url(./__socials/footer__socials.css);
+@import url(./__social-icon/footer__social-icon.css);
 
 .footer {
     max-width: 86%;
@@ -12,3 +14,17 @@
     align-items: center;
     margin: auto;
 }
+
+@media screen and (max-width: 768px) {
+    .footer {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .footer {
+        flex-wrap: wrap;
+    }
+}
+
+

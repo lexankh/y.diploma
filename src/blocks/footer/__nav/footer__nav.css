@@ -1,3 +1,28 @@
 .footer__nav {
     align-self: center;
 }
+
+@media screen and (max-width: 580px) {
+    .footer__nav {
+        margin-right: 12px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .footer__nav {
+        order: 1;
+        display: flex;
+       
+        
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .footer__nav {
+       
+        flex-direction: column;
+        
+    }
+
+}

@@ -1,0 +1,5 @@
+@media screen and (max-width: 768px) {
+    .commit__title {
+        max-width: 336px;
+    }
+}

@@ -6,3 +6,13 @@ font-size: 60px;
 line-height: 64px;
 margin-bottom: 0;
 }
+
+@media screen and (max-width: 768px) {
+    .search__title {
+        max-width: 385px;
+        font-size: 36px;
+        line-height: 40px;
+     align-self: left;
+    }
+}
+

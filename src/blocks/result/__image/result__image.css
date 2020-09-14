@@ -1,6 +1,5 @@
 .result__image {
-    
-    background-repeat: repeat-y;
+    object-fit: cover;
     width: 100%;
     min-height: 272px;
 }

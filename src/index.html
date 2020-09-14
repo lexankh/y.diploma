@@ -4,8 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Alexey Khoroshavin" />
-    <meta name="description" content="Yandex.praktikum diploma" /> 
-    <link rel="shortcut icon" href="<%=require('./images/favicon.svg')%>" type="image/svg">
+    <meta name="description" content="Yandex.praktikum diploma" />
+    <link
+      rel="shortcut icon"
+      href="<%=require('./images/favicon.svg')%>"
+      type="image/svg"
+    />
     <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>" />
     <title>Практикум Диплом</title>
   </head>
@@ -51,7 +55,6 @@
       </div>
       <div class="not-found">
         <img
-          alt="не найдено"
           class="not-found__image"
           src="<%=require('./images/notFound.png')%>"
           alt="Ничего не найдено"
@@ -71,12 +74,12 @@
           </div>
           <ul class="result__container">
             <li class="result__card">
-              <div
+              <img
                 class="result__image"
-                style="
-                  background-image: url(<%=require('./images/cardimage1.png')%>);
-                "
-              ></div>
+                alt="фото статьи"
+                src="
+                  <%=require('./images/cardimage1.png')%>"
+              />
               <div class="result__description">
                 <p class="result__date">2 августа, 2019</p>
                 <h3 class="result__title">Национальное достояние – парки</h3>
@@ -91,12 +94,12 @@
             </li>
 
             <li class="result__card">
-              <div
+              <img
                 class="result__image"
-                style="
-                  background-image: url(<%=require('./images/cardimage2.png')%>);
-                "
-              ></div>
+                alt="фото статьи"
+                src="
+                  <%=require('./images/cardimage2.png')%>"
+              />
               <div class="result__description">
                 <p class="result__date">1 августа, 2019</p>
                 <h3 class="result__title">
@@ -112,12 +115,12 @@
             </li>
 
             <li class="result__card">
-              <div
-                class="result__image"
-                style="
-                  background-image: url(<%=require('./images/cardimage3.png')%>);
-                "
-              ></div>
+              <img
+              class="result__image"
+              alt="фото статьи"
+              src="
+                <%=require('./images/cardimage3.png')%>"
+            />
               <div class="result__description">
                 <p class="result__date">2 августа, 2019</p>
                 <h3 class="result__title">Национальное достояние – парки</h3>
@@ -132,12 +135,12 @@
             </li>
 
             <li class="result__card">
-              <div
-                class="result__image"
-                style="
-                  background-image: url(<%=require('./images/cardimage4.png')%>);
-                "
-              ></div>
+              <img
+              class="result__image"
+              alt="фото статьи"
+              src="
+                <%=require('./images/cardimage4.png')%>"
+            />
               <div class="result__description">
                 <p class="result__date">1 августа, 2019</p>
                 <h3 class="result__title">
@@ -153,12 +156,12 @@
             </li>
 
             <li class="result__card">
-              <div
-                class="result__image"
-                style="
-                  background-image: url(<%=require('./images/cardimage5.png')%>);
-                "
-              ></div>
+              <img
+              class="result__image"
+              alt="фото статьи"
+              src="
+                <%=require('./images/cardimage5.png')%>"
+            />
               <div class="result__description">
                 <p class="result__date">2 августа, 2019</p>
                 <h3 class="result__title">Национальное достояние – парки</h3>
@@ -173,12 +176,13 @@
             </li>
 
             <li class="result__card">
-              <div
-                class="result__image"
-                style="
-                  background-image: url(<%=require('./images/cardimage6.png')%>);
-                "
-              ></div>
+              <img
+              class="result__image"
+              alt="фото статьи"
+              src="
+                <%=require('./images/cardimage6.png')%>"
+                
+            />
               <div class="result__description">
                 <p class="result__date">1 августа, 2019</p>
                 <h3 class="result__title">
@@ -193,28 +197,29 @@
               </div>
             </li>
           </ul>
-          <button href="#" class="result__more-btn">Показать еще</button>
+          <button class="result__more-btn">Показать еще</button>
         </div>
       </section>
       <section class="author">
         <div class="author__content">
-        <img
-          class="author__photo"
-          alt="Фото автора"
-          src="<%=require('./images/author__photo.png')%>"
-        />
-        <div class="author__about">
-          <h4 class="author__heading section-title">Об авторе</h4>
-          <p class="author__text">
-            Это блок с описанием автора проекта. Здесь следует указать, как вас
-            зовут, чем вы занимаетесь, какими технологиями разработки владеете.
-          </p>
-          <p class="author__text">
-            Также можно рассказать о процессе обучения в Практикуме, чему вы тут
-            научились, и чем можете помочь потенциальным заказчикам.
-          </p>
+          <img
+            class="author__photo"
+            alt="Фото автора"
+            src="<%=require('./images/author__photo.png')%>"
+          />
+          <div class="author__about">
+            <h4 class="author__heading section-title">Об авторе</h4>
+            <p class="author__text">
+              Это блок с описанием автора проекта. Здесь следует указать, как
+              вас зовут, чем вы занимаетесь, какими технологиями разработки
+              владеете.
+            </p>
+            <p class="author__text">
+              Также можно рассказать о процессе обучения в Практикуме, чему вы
+              тут научились, и чем можете помочь потенциальным заказчикам.
+            </p>
+          </div>
         </div>
-      </div>
       </section>
       <footer class="footer">
         <p class="footer__copyright">&copy;2020 Lexankh</p>
@@ -228,26 +233,23 @@
             >Яндекс.Практикум</a
           >
         </nav>
-        <ul class="footer__socials">
+        <div class="footer__socials">
           <a
             href="https://github.com/lexankh"
-            alt="github"
             class="footer__social-link"
             target="blank"
             ><img
               class="footer__social-icon"
+              alt="github"
               src="<%=require('./images/github.png')%>"
           /></a>
-          <a
-            href="https://fb.com"
-            alt="fb"
-            class="footer__social-link"
-            target="blank"
+          <a href="https://fb.com" class="footer__social-link" target="blank"
             ><img
               class="footer__social-icon"
+              alt="fb"
               src="<%=require('./images/fb.png')%>"
           /></a>
-        </ul>
+        </div>
       </footer>
     </div>
     <script src="<%= htmlWebpackPlugin.files.js %>"></script>

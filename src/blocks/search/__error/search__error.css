@@ -1,0 +1,15 @@
+.search__error {
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 24px;
+    position: absolute;
+    top: 70px;
+    left: 10px;
+
+}
+
+@media screen and (max-width: 465px) {
+    .search__error {
+        top: 155px;
+    }
+}

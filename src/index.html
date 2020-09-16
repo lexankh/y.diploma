@@ -41,12 +41,17 @@
           </h3>
           <form class="search__field">
             <input
+              type="search"
               class="search__bar"
               required
               placeholder="Введите тему новости"
+              minlength="2"
+              maxlength="30"
             />
             <button class="search__btn" type="submit">Искать</button>
+            <span class="search__error"></span>
           </form>
+          
         </div>
       </section>
       <div class="preloader">
@@ -116,11 +121,11 @@
 
             <li class="result__card">
               <img
-              class="result__image"
-              alt="фото статьи"
-              src="
+                class="result__image"
+                alt="фото статьи"
+                src="
                 <%=require('./images/cardimage3.png')%>"
-            />
+              />
               <div class="result__description">
                 <p class="result__date">2 августа, 2019</p>
                 <h3 class="result__title">Национальное достояние – парки</h3>
@@ -136,11 +141,11 @@
 
             <li class="result__card">
               <img
-              class="result__image"
-              alt="фото статьи"
-              src="
+                class="result__image"
+                alt="фото статьи"
+                src="
                 <%=require('./images/cardimage4.png')%>"
-            />
+              />
               <div class="result__description">
                 <p class="result__date">1 августа, 2019</p>
                 <h3 class="result__title">
@@ -157,11 +162,11 @@
 
             <li class="result__card">
               <img
-              class="result__image"
-              alt="фото статьи"
-              src="
+                class="result__image"
+                alt="фото статьи"
+                src="
                 <%=require('./images/cardimage5.png')%>"
-            />
+              />
               <div class="result__description">
                 <p class="result__date">2 августа, 2019</p>
                 <h3 class="result__title">Национальное достояние – парки</h3>
@@ -177,12 +182,11 @@
 
             <li class="result__card">
               <img
-              class="result__image"
-              alt="фото статьи"
-              src="
+                class="result__image"
+                alt="фото статьи"
+                src="
                 <%=require('./images/cardimage6.png')%>"
-                
-            />
+              />
               <div class="result__description">
                 <p class="result__date">1 августа, 2019</p>
                 <h3 class="result__title">

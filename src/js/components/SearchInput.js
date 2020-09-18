@@ -1,12 +1,17 @@
 import { ERRORS } from "../constants/const";
 
 export class SearchInput {
-    constructor(form, request) {
-        this._form = form;
+    constructor (form, request) {
+      
+        this.form = form;
         this._request = request;
-        this._input = this._form.querySelector('.search__bar');
+        this._input = this.form.querySelector('.search__bar');
         this._error = document.querySelector('.search__error');
-        this._btn = this._form.querySelector('.search__btn');
+        this._btn = this.form.querySelector('.search__btn');
+        // this.form.addEventListener('submit',)
+         
+      
+        
     }
 
     _isValidate = (input) => {
@@ -35,7 +40,7 @@ export class SearchInput {
         const valid = this._isValidate(this._input);
         this._error.textContent = this._input.validationMessage;
       
-        if (this._form.checkValidity()) {
+        if (this.form.checkValidity()) {
           this._setSubmitButtonState(this._btn, true);
         }
         else {
@@ -77,11 +82,11 @@ export class SearchInput {
       };
 
     setEventListener = () => {
-        this._form.addEventListener("submit", this._searchRequest);
-        this._form.addEventListener("input", () => {
+        this.form.addEventListener("submit", this._searchRequest);
+        this.form.addEventListener("input", () => {
           this._checkInputValidity(this._input);
         });
-        this._form.addEventListener("input", this._handlerInputForm, true);
+        this.form.addEventListener("input", this._handlerInputForm, true);
       };
     
   

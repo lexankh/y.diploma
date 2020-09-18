@@ -180,7 +180,9 @@
               </div>
             </li>
 
+            
             <li class="result__card">
+              
               <img
                 class="result__image"
                 alt="фото статьи"
@@ -200,6 +202,7 @@
                 <p class="result__origin">Медуза</p>
               </div>
             </li>
+          
           </ul>
           <button class="result__more-btn">Показать еще</button>
         </div>
@@ -255,6 +258,29 @@
           /></a>
         </div>
       </footer>
+      <template id="news-card">
+        <a class="result__link" target="blank" href="github.com">
+        <li class="result__card">
+          <img
+            class="result__image"
+            alt="фото статьи"
+            src="
+              <%=require('./images/cardimage1.png')%>"
+          />
+          <div class="result__description">
+            <p class="result__date">2 августа, 2019</p>
+            <h3 class="result__title">Национальное достояние – парки</h3>
+            <p class="result__subtitle">
+              В 2016 году Америка отмечала важный юбилей: сто лет назад
+              здесь начала складываться система национальных парков –
+              охраняемых территорий, где и сегодня каждый может приобщиться
+              к природе.
+            </p>
+            <p class="result__origin">Лента.ру</p>
+          </div>
+        </li>
+      </a>
+      </template>
     </div>
     <script src="<%= htmlWebpackPlugin.files.js %>"></script>
   </body>

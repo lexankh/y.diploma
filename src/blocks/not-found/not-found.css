@@ -3,7 +3,7 @@
 @import url(./__title/not-found__title.css);
 
 .not-found {
-    display: flex;
+    display: none;
     flex-direction: column;
     padding-top: 80px;
     padding-bottom: 80px;

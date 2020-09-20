@@ -1,15 +1,14 @@
 export class NewsApi {
-  constructor(options) {
+  constructor(options, searchInput) {
     this.url = options.url;
     this.apiKey = options.apiKey;
-    this.searchField = options.searchField;
+    this.searchInput = searchInput;
     this.request = null;
-    this.headers = options.headers;
     
   }
 
   getNews() {
-    this.request = this.searchField.textContent;
+    this.request = this.searchInput.value;
     console.log(this.request);
     return fetch(
       `${this.url}?q=${this.request}&apiKey=${
@@ -40,7 +39,7 @@ _fromDate() {
 
 _nowDate() {
     const date = new Date();
-    const nowDate = `${curDate.getFullYear()}-${curDate.getMonth()+1}-${curDate.getDate()}`;
+    const nowDate = `${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}`;
     return nowDate
 
 }

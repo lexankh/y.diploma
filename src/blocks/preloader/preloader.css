@@ -2,7 +2,7 @@
 @import url(./__phrase/preloader__phrase.css);
 
 .preloader {
-    display: flex;
+    display: none;
     flex-direction: column;
     padding-top: 80px;
     padding-bottom: 80px;

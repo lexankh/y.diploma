@@ -13,9 +13,12 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
+    border-style: none;
     
 }
 
 .search__bar:focus {
     color: black;
+    border: 1px solid #2f71e5;
+    transition: .4s;
 }

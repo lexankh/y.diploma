@@ -19,5 +19,6 @@ const newsApi = new NewsApi({
 
 const newsCard = (...arg) => new NewsCard(...arg);
 const newsCardList = new NewsCardList(page, container, newsCard, newsApi, moreBtn);
+newsCardList.loadFromLocalStorage();
 const searchInput = new SearchInput(page, form, newsCardList, container);
 

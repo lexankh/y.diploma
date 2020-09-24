@@ -68,8 +68,10 @@ export class SearchInput {
   }
 
   showMore = () => {
+    
     this.page.querySelector('.preloader').style.display = "flex";
     this.newsCardListCallback.loadFromLocalStorage();
+    this.page.querySelector('.result__more-btn').scrollIntoView(false);
     this.page.querySelector('.preloader').style.display = "none";
   }
 }

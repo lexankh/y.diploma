@@ -10,6 +10,7 @@ export default function swiperInit() {
           575: {
             slidesPerView: 1,
             spaceBetween: 8,
+           
             
           },
           

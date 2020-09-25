@@ -32,7 +32,7 @@
 
 @media screen and (max-width: 375px) {
     .author__photo {
-        margin: 0;
+        margin: 32px 0 0 0;
         width: 100%;
     }
 }

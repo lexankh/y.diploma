@@ -10,6 +10,11 @@
   transition-duration: 1s;
 }
 
+.swiper-button {
+    width: 56px !important;
+    height: 56px !important;
+}
+
 
 @media screen and (max-width: 768px) {
     .swiper-slide {
@@ -18,7 +23,15 @@
       min-width: 336px;
     min-height: 242px;
     }
+
+    .swiper-button {
+        display: none !important;
+    }
+
+    
+    
   }
+
   
   @media (max-width: 575px) {
     .swiper-slide {

@@ -1,23 +1,11 @@
 .commit__card {
-    cursor: grab;
     text-decoration: none;
     background: #fff;
     display: block;
     border-radius: 16px;
     width: 400px;
-    margin-right: 16px;
-    padding: 24px 24px 65px 24px;
+    padding: 24px 24px 0 24px;
     box-sizing: border-box;
+    cursor: pointer;
 }
 
-@media screen and (max-width: 768px) {
-    .commit__card:last-of-type {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 575px) {
-    .commit__card:nth-child(1) {
-display: none;
-    }
-}

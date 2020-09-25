@@ -1,0 +1,30 @@
+.swiper-slide {
+  background: #fff;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  max-height: 288px;
+  min-width: 400px;
+  min-height: 288px;
+  transition-duration: 1s;
+}
+
+
+@media screen and (max-width: 768px) {
+    .swiper-slide {
+      max-width: 336px;
+      max-height: 242px;
+      min-width: 336px;
+    min-height: 242px;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    .swiper-slide {
+      max-width: 288px;
+      max-height: 264px;
+      min-width: 288px;
+    min-height: 264px;
+    }
+  }

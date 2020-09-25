@@ -9,3 +9,7 @@ export const OPTIONS = {
     apiKey: "4d46f4e73ed04c60988149bc8da55a71",
 
 };
+
+export const GITCOMMITS = {
+  url: "https://api.github.com/repos/lexankh/y.diploma/commits",
+}
